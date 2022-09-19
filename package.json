@@ -1,0 +1,20 @@
+{
+  "name": "backend-notes",
+  "version": "1.0.0",
+  "description": "----------------------------------\r Module-1 JavaScript for Back-end Development\r ----------------------------------\r ## Synchronous vs Asynchronous Node.js\r 1. Node.js Single threated, Non-blocking, Asynchronous\r 2. When a task arrives it will be executing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naimsiddiquibd/Backend-Notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naimsiddiquibd/Backend-Notes/issues"
+  },
+  "homepage": "https://github.com/naimsiddiquibd/Backend-Notes#readme"
+}

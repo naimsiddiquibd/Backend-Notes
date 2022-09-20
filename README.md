@@ -22,3 +22,9 @@ Module-1 JavaScript for Back-end Development
 3. .then (dot then) not needed here.
 4. Inside the function the promise can be called using a variable: const res = await myPromise;
 5. To check the example: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/3.AsyncAwait.js
+
+### Errors and error handling
+1. To avoid server-down because of an error: try catch
+2. To handle error properly: global function: errorHandler(error)
+3. Error destructuring: const {name, message, stack} = error;
+4. Error can be stored by "logger.error"

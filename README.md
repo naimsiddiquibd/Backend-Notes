@@ -18,3 +18,7 @@ Module-1 JavaScript for Back-end Development
 
 ### Async await
 1. Await: inside an Async function it works. It will wait until the resolve or reject arrive.
+2. Use "async" keyword before to make a function Async.
+3. .then (dot then) not needed here.
+4. Inside the function the promise can be called using a variable: const res = await myPromise;
+5. To check the example: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/3.AsyncAwait.js

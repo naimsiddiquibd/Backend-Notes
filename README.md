@@ -28,3 +28,4 @@ Module-1 JavaScript for Back-end Development
 2. To handle error properly: global function: errorHandler(error)
 3. Error destructuring: const {name, message, stack} = error;
 4. Error can be stored by "logger.error"
+5. To check the example: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/4.Errors.js

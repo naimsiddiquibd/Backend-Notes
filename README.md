@@ -11,7 +11,9 @@ Module-1 JavaScript for Back-end Development
 
 ## Promises and handling multiple promises
 1. 3 kind of Promises: 1. Pending 2. Resolved 3. Rejected
-2. const myPromise = new Promise()
-3. const myPromise = new Promise((resolve, reject) => {
+2. To avoid call-back hell
+3. const myPromise = new Promise()
+4. const myPromise = new Promise((resolve, reject) => {
     <!-- Asynchronous task -->
 })
+5. Check the examples of the Promise, Promise inside a loop (Async inside Sync), Promise.all: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/2.Promise.js

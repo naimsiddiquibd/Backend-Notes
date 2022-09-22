@@ -1,7 +1,7 @@
 ----------------------------------
 Module-1 JavaScript for Back-end Development
 ----------------------------------
-### Synchronous vs Asynchronous Node.js
+### 1. Synchronous vs Asynchronous Node.js
 1. Node.js Single threated, Non-blocking, Asynchronous
 2. Synchronous task: When a synchronous task arrives it will be executing (Event queue)
 3. Single threated but Non-blocking because of Asynchronous
@@ -9,28 +9,28 @@ Module-1 JavaScript for Back-end Development
 5. To check the examples about the Sync and Async visit (https://github.com/naimsiddiquibd/Backend-Notes/blob/main/1.SyncAsync.js)
 6. To much nesting call-back is "call-back hell"
 
-### Promises and handling multiple promises
+### 2. Promises and handling multiple promises
 1. 3 kind of Promises: 1. Pending 2. Resolved 3. Rejected
 2. To avoid call-back hell
 3. const myPromise = new Promise();
 4. const myPromise = new Promise((resolve, reject) => {Asynchronous task});
 5. Check the examples of the Promise, Promise inside a loop (Async inside Sync), Promise.all: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/2.Promise.js
 
-### Async await
+### 3. Async await
 1. Await: inside an Async function it works. It will wait until the resolve or reject arrive.
 2. Use "async" keyword before to make a function Async.
 3. .then (dot then) not needed here.
 4. Inside the function the promise can be called using a variable: const res = await myPromise;
 5. To check the example: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/3.AsyncAwait.js
 
-### Errors and error handling
+### 4. Errors and error handling
 1. To avoid server-down because of an error: try catch
 2. To handle error properly: global function: errorHandler(error)
 3. Error destructuring: const {name, message, stack} = error;
 4. Error can be stored by "logger.error"
 5. To check the example: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/4.Errors.js
 
-### Import export
+### 5. Import export
 1. Every JavaScript file has a object named "Module"
 2. "Module" has am "Exports" object
 3. To export a function: module.exports = functionName; (Default Export)
@@ -47,3 +47,27 @@ module.exports = {<br>
 }
 8. Example of Export: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/FunctionsToExport.js
 9. Example of Import: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/5.ImportExport.js
+
+----------------------------------
+Module-2 Introduction To NodeJS & Package Manager
+----------------------------------
+### 1. Introduction to node.js and npm
+1. 1995-2009 only can handle front-end logic
+2. JavaScript Could not do query in database, handle server side request and response, read/write fine on server, server side operation
+
+### 2. How node works behind the scene
+1. Chrome has V8 Engine, V8 has DOM access
+2. Not CPU Intensive work
+3. I/O Intensive work
+
+### 3. How node works behind the scene
+1. Install Nde.js
+2. To check the global method in Chrome: Console: window (press enter)
+
+### 4. What is global object and modules
+1. Global variable: "var" acts like a global variable, it could be access by "window.variableName"
+2. Import, Export
+3. 3 Kind of Modules: 1. Local Modules 2. Ccore Modules, 4. Third Party Modules (https://www.tutorialsteacher.com/nodejs/nodejs-modules)
+4. Local Modules: Already seen in the 1.5
+5. Core Modules: Required by Node. We got then after: "npm init -y"
+6. Third Party Module: Developed by others, need to install it first.

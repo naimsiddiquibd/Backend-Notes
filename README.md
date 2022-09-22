@@ -29,3 +29,19 @@ Module-1 JavaScript for Back-end Development
 3. Error destructuring: const {name, message, stack} = error;
 4. Error can be stored by "logger.error"
 5. To check the example: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/4.Errors.js
+
+### Import export
+1. Every JavaScript file has a object named "Module"
+2. "Module" has am "Exports" object
+3. To export a function: module.exports = functionName; (Default Export)
+4. To access it from an another file: const functionName = require(./functionName.js);
+5. To export multiple functions: (Name Export)
+module.exports.fucntionOne = functionOne;<br>
+module.exports.fucntiontwo = functionTwo;
+6. To access them from an another file:<br>
+const { fucntionOne, fucntiontwo } = require(./functionName.js);
+7. Alternative way:<br>
+module.exports = {<br>
+    functionOne,<br>
+    functionTwo,<br>
+}

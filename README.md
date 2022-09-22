@@ -45,3 +45,5 @@ module.exports = {<br>
     functionOne,<br>
     functionTwo,<br>
 }
+8. Example of Export: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/FunctionsToExport.js
+9. Example of Import: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/5.ImportExport.js

@@ -1,4 +1,4 @@
-const { fucntionOne, fucntionTwo } = require("./Functions.js");
+const { fucntionOne, fucntionTwo } = require("./FunctionsToExport.js");
 
 const resultOne = fucntionOne(2,3);
 console.log(resultOne);

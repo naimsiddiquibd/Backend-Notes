@@ -60,14 +60,24 @@ Module-2 Introduction To NodeJS & Package Manager
 2. Not CPU Intensive work
 3. I/O Intensive work
 
-### 3. How node works behind the scene
+### 3. Installation of node.js and running javascript outside of the browser
 1. Install Nde.js
 2. To check the global method in Chrome: Console: window (press enter)
 
 ### 4. What is global object and modules
-1. Global variable: "var" acts like a global variable, it could be access by "window.variableName"
+1. Global variable: "var" acts like a global variable, it could be access by "window.variableName" inside Chrome console
 2. Import, Export
-3. 3 Kind of Modules: 1. Local Modules 2. Ccore Modules, 4. Third Party Modules (https://www.tutorialsteacher.com/nodejs/nodejs-modules)
-4. Local Modules: Already seen in the 1.5
-5. Core Modules: Required by Node. We got then after: "npm init -y"
-6. Third Party Module: Developed by others, need to install it first.
+
+### 5. Different types of modules
+1. 3 Kind of Modules: 1. Local Modules 2. Core Modules, 4. Third Party Modules (https://www.tutorialsteacher.com/nodejs/nodejs-modules)
+2. Local Modules: Already seen in the 1.5
+3. Core Modules: Required by Node. We got then after: "npm init -y"
+4. Third Party Module: Developed by others, need to install it first.
+5. Example: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/6.Modules.js
+
+### 6. Create your first node server
+1. Use a core module: const http = require('http');
+2. Inside a variable (server), call "http.createServer" method with "req" and "res" parameter and then res.end('hello Node.js'); [This would be shown in the Browser]
+3. Define a server port (5000) inside PORT variable
+4. Now listen from the variable (server) from the PORT
+5. console.log(`Server is running at ${PORT}`); [This would be shown in the Terminal]

@@ -81,3 +81,4 @@ Module-2 Introduction To NodeJS & Package Manager
 3. Define a server port (5000) inside PORT variable
 4. Now listen from the variable (server) from the PORT
 5. console.log(`Server is running at ${PORT}`); [This would be shown in the Terminal]
+6. Example: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/7.FirstServer.js

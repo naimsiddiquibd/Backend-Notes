@@ -105,3 +105,10 @@ Module-2 Introduction To NodeJS & Package Manager
 6. There we can see a quesry object
 7. Get the query object in this way: const queryObject = parsed_url.query;
 8. Example: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/9.urlModule.js
+
+### 7. Exploring File System Module
+1. Visit: https://www.tutorialsteacher.com/nodejs/nodejs-file-system
+2. Two types: Asynchronous & Synchronous
+3. Important actions: fs.readFile, fs.writeFile, fs.rename, fs.exists, fs.appendFile
+4. Asynchronous way: fs.readFile(fileName [,options], callback);
+5. Synchronous way: fs.readFileSync(fileName [,options]);

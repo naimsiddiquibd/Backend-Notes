@@ -94,4 +94,4 @@ Module-2 Introduction To NodeJS & Package Manager
 8. Make a condition: if the url's tail matches with the condition then, res.writeHead(); res.write(); res.end();
 9. Can possible to send data as a html ({'Content-Type':'text/html})
 10. Can possible to send data as a JSON ({'Content-Type':'application/json''})
-11. 
+11. Example: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/8.ReqResModel.js

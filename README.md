@@ -96,7 +96,7 @@ Module-2 Introduction To NodeJS & Package Manager
 10. Can possible to send data as a JSON ({'Content-Type':'application/json''})
 11. Example: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/8.ReqResModel.js
 
-### 7. Exploring URL Module
+### 8. Exploring URL Module
 1. Example url: http://localhost:5000/contact?name=Naim&country=Bangladesh
 2. Perse from the url and then Query
 3. Use another core module: const url = require('url');
@@ -106,7 +106,7 @@ Module-2 Introduction To NodeJS & Package Manager
 7. Get the query object in this way: const queryObject = parsed_url.query;
 8. Example: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/9.urlModule.js
 
-### 7. Exploring File System Module
+### 9. Exploring File System Module
 1. Visit: https://www.tutorialsteacher.com/nodejs/nodejs-file-system
 2. Two types: Asynchronous & Synchronous
 3. Important actions: fs.readFile, fs.writeFile, fs.rename, fs.exists, fs.appendFile

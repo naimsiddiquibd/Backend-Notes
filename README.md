@@ -112,3 +112,4 @@ Module-2 Introduction To NodeJS & Package Manager
 3. Important actions: fs.readFile, fs.writeFile, fs.rename, fs.exists, fs.appendFile
 4. Asynchronous way: fs.readFile(fileName [,options], callback);
 5. Synchronous way: fs.readFileSync(fileName [,options]);
+6. Example: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/10.FileSystem.js

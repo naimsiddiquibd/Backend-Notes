@@ -104,4 +104,4 @@ Module-2 Introduction To NodeJS & Package Manager
 5. To see what's happening: console.log(parsed_url);
 6. There we can see a quesry object
 7. Get the query object in this way: const queryObject = parsed_url.query;
-8. Example: 
+8. Example: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/9.urlModule.js

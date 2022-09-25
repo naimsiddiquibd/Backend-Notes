@@ -95,3 +95,13 @@ Module-2 Introduction To NodeJS & Package Manager
 9. Can possible to send data as a html ({'Content-Type':'text/html})
 10. Can possible to send data as a JSON ({'Content-Type':'application/json''})
 11. Example: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/8.ReqResModel.js
+
+### 7. Exploring URL Module
+1. Example url: http://localhost:5000/contact?name=Naim&country=Bangladesh
+2. Perse from the url and then Query
+3. Use another core module: const url = require('url');
+4. Put the example url inside a variable, then parse it: url.parse(exampleURL, true); inside a variable
+5. To see what's happening: console.log(parsed_url);
+6. There we can see a quesry object
+7. Get the query object in this way: const queryObject = parsed_url.query;
+8. Example: 

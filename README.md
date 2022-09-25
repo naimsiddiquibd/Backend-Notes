@@ -82,3 +82,16 @@ Module-2 Introduction To NodeJS & Package Manager
 4. Now listen from the variable (server) from the PORT
 5. console.log(`Server is running at ${PORT}`); [This would be shown in the Terminal]
 6. Example: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/7.FirstServer.js
+
+### 7. Request and Response Model
+1. Request > (Device to server)
+2. Response > (Server to device)
+3. Two type of Response: 1. Status code, 2. Data
+4. Two type of Data: 1. Head, 2. Body
+5. Status code: 200 success, 500 internal server error, 400 bad request, 401 unauthorized, 404 not found
+6. npm i -D nodemon (To keep the server running)
+7. Inside server: clg req.url and change the url's tail from the browser and check terminal what's happened there
+8. Make a condition: if the url's tail matches with the condition then, res.writeHead(); res.write(); res.end();
+9. Can possible to send data as a html ({'Content-Type':'text/html})
+10. Can possible to send data as a JSON ({'Content-Type':'application/json''})
+11. 

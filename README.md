@@ -115,4 +115,9 @@ Module-2 Introduction To NodeJS & Package Manager
 6. Example: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/10.FileSystem.js
 
 ### 10. Events, stream, and Buffer
-1.
+1. Require events (it's a node module, nothing needs to install)
+2. Get eventEmitter from the events with "new" and store it inside a variable
+3. Create a event handler
+4. Assign the handler in an event
+5. Fire the event
+6. 

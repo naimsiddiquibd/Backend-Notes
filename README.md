@@ -120,4 +120,5 @@ Module-2 Introduction To NodeJS & Package Manager
 3. Create a event handler
 4. Assign the handler in an event
 5. Fire the event
-6. 
+6. Event Example: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/11.Event.js
+7. stream and Buffer:

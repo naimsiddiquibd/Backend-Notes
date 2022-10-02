@@ -122,3 +122,70 @@ Module-2 Introduction To NodeJS & Package Manager
 5. Fire the event
 6. Event Example: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/11.Event.js
 7. stream and Buffer:
+8. (Rest seems very complicated, need to have a look later)
+
+----------------------------------
+Module-3 Explore Express While Building Rest API's
+----------------------------------
+### 1. What is Express and why we use it?
+1. IMB, Ebay, Ubar using Express
+2. It's a Node.js's Framework
+3. Fully under control, not like Laravel or Django
+
+### 2. Software architectural pattern - MVC
+1. We have to follow: Software Architectural Pattern
+2. MVC: Model View Controller
+
+### 3. Software architectural pattern - MVC
+1. We are going to work on it (download the initial brunch): https://github.com/Abdify/express-mvc-acc
+2. 4 parts of the project:</br>
+Middleware</br>
+Functions (Email sending, Database call)</br>
+Routs</br>
+API connection (app.listen)</br>
+3. Cut the functions and put them inside "utils" folder separately (dbConnect.js & email.js) then export them
+4. Cus the routs and put them inside "routes" folder separately (users.route.js & tools.route.js)
+5. Inside tools.route.js: require express, call express.router and put it inside a variable
+6. 
+
+### 4. Explore and refactor Controllers
+
+### 6. Middleware!
+
+----------------------------------
+Module-4 Assignment
+----------------------------------
+(Check ph website acc course)
+
+----------------------------------
+Module-4 Deep Dive Into MongoDB Database
+----------------------------------
+### 1. Introduction to MongoDB
+1. NoSQL: Object based, Document oriented, Bjson format, Not table lite SQL
+
+### 1. Installation and setup
+1. Download and open
+2. Click "Complete", Checkbox "Install mongoDB Compass" and install it
+3. Download mongoDB Shell
+4. To check mongoDV Shell using CMD: Command: mongosh
+
+### 2. Inserting data
+1. To check the existing databases from Mongosh: show dbs
+2. Create a database named "tools": use tools
+3. To create a collection named "users" and insert an object: db.users.insertOne({ name: "Naim", age: 23 })
+4. Clear terminal: cls
+5. To check the users: db.users.find()
+6. Now check by "show dbs" and check the newly created database called "tools"
+7. To insert multiple: db.users.insertMany([array])
+
+### 3. Querying data
+1. Get to a database called "tools": use tools
+2. Check the collection called "users": show collections
+3. To check the documents inside the collection: db.users.find()
+4. To check how many users there: db.users.find().count()
+5. To check limited data: db.users.find().limit(2)
+6. To skip the first two: db.users.find().skip(2).limit(2)
+7. To short high to low: db.users.find().sort({ age: -1 })
+8. To short low to high: db.users.find().sort({ age: 1 })
+9. If the same number existed the sort them with name: db.users.find().sort({ age: 1, name: 1 })
+10. Projection (Upcoming)

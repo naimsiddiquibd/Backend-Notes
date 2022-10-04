@@ -158,7 +158,7 @@ Module-4 Assignment
 (Check ph website acc course)
 
 ----------------------------------
-Module-4 Deep Dive Into MongoDB Database
+Module-5 Deep Dive Into MongoDB Database
 ----------------------------------
 ### 1. Introduction to MongoDB
 1. NoSQL: Object based, Document oriented, Bjson format, Not table lite SQL
@@ -178,7 +178,7 @@ Module-4 Deep Dive Into MongoDB Database
 6. Now check by "show dbs" and check the newly created database called "tools"
 7. To insert multiple: db.users.insertMany([array])
 
-### 3. Querying data
+### 4. Querying data
 1. Get to a database called "tools": use tools
 2. Check the collection called "users": show collections
 3. To check the documents inside the collection: db.users.find()
@@ -188,4 +188,27 @@ Module-4 Deep Dive Into MongoDB Database
 7. To short high to low: db.users.find().sort({ age: -1 })
 8. To short low to high: db.users.find().sort({ age: 1 })
 9. If the same number existed the sort them with name: db.users.find().sort({ age: 1, name: 1 })
-10. Projection (Upcoming)
+10. To get all the names only: db.users.find().projection({name: 1})
+11. To get all the names only without IDs: db.users.find().projection({name: 1, _id: 0})
+12. Find specific by name: db.users.find({name: "Naim"})
+13. Find by specific element of an array: db.users.find({skills: "JavaScript"})
+14. Find by an array: db.users.find({skills: ['C++', 'JavaScript']})
+15. 
+
+### 5. Operators
+
+----------------------------------
+Module-6 Introduction to Mongoose & implement it to a  real project
+----------------------------------
+### 1. Why do we use mongoose
+1. We will get a lot of in-build functionality
+2. Check https://mongoosejs.com/
+
+### 2. Connect your MongoDB with Mongoose
+1. Project: Inventory Management System
+2. Install important things: npm i express cors dotenv mongodb colors
+3. Install Mongoose: npm install mongoose --save
+4. Create "app.js" and setup a basic structure: 
+5. Create "Server.js" and setup basic structure:
+6. To create a devDependencies: npm i -D nodemon
+7. package.json: "scripts": { "start": "node server", "dev": "nodemon server"}

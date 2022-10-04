@@ -208,7 +208,7 @@ Module-6 Introduction to Mongoose & implement it to a  real project
 1. Project: Inventory Management System
 2. Install important things: npm i express cors dotenv mongodb colors
 3. Install Mongoose: npm install mongoose --save
-4. Create "app.js" and setup a basic structure: 
-5. Create "Server.js" and setup basic structure:
+4. Create "app.js" and setup a basic structure: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/13.AppBasicStructure.js
+5. Create "Server.js" and setup basic structure: https://github.com/naimsiddiquibd/Backend-Notes/blob/main/14.ServerBasicStructure.js
 6. To create a devDependencies: npm i -D nodemon
 7. package.json: "scripts": { "start": "node server", "dev": "nodemon server"}
